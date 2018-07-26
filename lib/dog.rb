@@ -6,8 +6,8 @@ class Dog
    @password
    end
 
-  def username
-   @username = new_username
+  def breed=(new_breed)
+   @breed = new_breed
   end
   def initialize(name, breed)
     @name = name
